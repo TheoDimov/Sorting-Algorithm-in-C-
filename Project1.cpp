@@ -63,20 +63,7 @@ int main()
 		cout << BOLD(FGRN("Please enter your sequence and hit '#' when done!: \n"));
 		cin >> S; //S string input
 		
- cout << BOLD(FBLU("\t//                                       //\n"));
-                cout << BOLD(FBLU("\t//  ")) << BOLD(FYEL ("This simple program will allow the   ")) << BOLD(FBLU ("//\n"));
-                cout << BOLD(FBLU("\t//  ")) << BOLD(FYEL ("user (you!) to input a string of     ")) << BOLD(FBLU ("//\n"));
-                cout << BOLD(FBLU("\t//  ")) << BOLD(FYEL ("digits consisting of 1s,0s,and/or    ")) << BOLD(FBLU ("//\n"));
-                cout << BOLD(FBLU("\t//  ")) << BOLD(FYEL ("2s.                                  ")) << BOLD(FBLU ("//\n"));
-                cout << BOLD(FBLU("\t//  ")) << BOLD(FYEL ("This program will output your sequ-  ")) << BOLD(FBLU ("//\n"));
-                cout << BOLD(FBLU("\t//  ")) << BOLD(FYEL ("ence, but with the 1s in first, than ")) << BOLD(FBLU ("//\n"));
-                cout << BOLD(FBLU("\t//  ")) << BOLD(FYEL ("0s, and finally 2s!                  ")) << BOLD(FBLU ("//\n"));
-                cout << BOLD(FBLU("\t//                                       //\n"));
-                cout << BOLD(FBLU("\t///////////////////////////////////////////\n\n"));
-
-                cout << BOLD(FGRN("Please enter your sequence and hit '#' when done!: \n"));
-                cin >> S; //S string input
-
+ 
                 //Declarations of the size for the Digits array, and the array itself
                 int size = S.length() - 1;
                 int Digits [size];
@@ -89,21 +76,6 @@ int main()
 
                 //Use of the sorting function
                 Sort_102 (Digits,size);
-
-                // Output of the array after the sort
-                                                                                                                                                                                   65,1-8        26%
-		//Declarations of the size for the Digits array, and the array itself
-		int size = S.length() - 1; 	
-		int Digits [size];
-		
-		//Transfer of the String S to the Digits array
-		for (int c = 0; c < size; c++)
-		{
-			Digits[c] = S[c] - '0';
-		}
-		
-		//Use of the sorting function
-		Sort_102 (Digits,size);
 
 		// Output of the array after the sort
 		cout << BOLD(FGRN("Now here is your sequence after Sort_102!: \n"));
