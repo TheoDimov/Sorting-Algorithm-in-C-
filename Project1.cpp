@@ -55,7 +55,7 @@ int main()
 		cout <<	BOLD(FBLU("\t//  ")) << BOLD(FYEL ("digits consisting of 1s,0s,and/or    ")) << BOLD(FBLU ("//\n"));
 		cout <<	BOLD(FBLU("\t//  ")) << BOLD(FYEL ("2s.                                  ")) << BOLD(FBLU ("//\n"));
 		cout << BOLD(FBLU("\t//  ")) << BOLD(FYEL ("This program will output your sequ-  ")) << BOLD(FBLU ("//\n"));
-		cout <<	BOLD(FBLU("\t//  ")) << BOLD(FYEL ("ence, but with the 1s in first, than ")) << BOLD(FBLU ("//\n"));
+		cout <<	BOLD(FBLU("\t//  ")) << BOLD(FYEL ("ence, but with the 1s in first, then ")) << BOLD(FBLU ("//\n"));
 		cout <<	BOLD(FBLU("\t//  ")) << BOLD(FYEL ("0s, and finally 2s!                  ")) << BOLD(FBLU ("//\n"));     
 		cout << BOLD(FBLU("\t//                                       //\n"));
 		cout << BOLD(FBLU("\t///////////////////////////////////////////\n\n"));
